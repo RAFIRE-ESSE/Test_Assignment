@@ -1,0 +1,17 @@
+python script working
+	step1: load all the files of stop words, positive words, and negative words
+	step2: requests, The BeautifulSoup module is used to extract data from the website
+	step3: then the extracted data will be processed using the analysis class
+	step4: inside the analysis class first the data will be converted into a list format and then transferred into p_n_spliter
+	Step 5: p_n_spliter will process data and create 13 variables such as POSITIVE SCORE, NEGATIVE SCORE, POLARITY SCORE, ...etc.
+	step6: the variable will be returned and stored in the output data frame
+	step7: then the data frame will be stored in xlsx format
+
+just run the Python file as it is. it will generate output.xlsx file
+
+dependencies:
+	*requests 
+	*BeautifulSoup 
+	*os
+	*pandas
+	*NumPy
